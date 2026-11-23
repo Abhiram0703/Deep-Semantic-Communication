@@ -265,7 +265,7 @@ At **−5 dB to 5 dB**, DeepSC-ST consistently achieves a *lower or comparable* 
 **Where the classical transceiver wins — high-SNR regimes.**
 Once the channel is clean (**≥10 dB, especially on AWGN**), the classical text transceiver drives CER/WER essentially to **zero**, because with few or no bit errors, exact ASCII reconstruction is trivial. DeepSC-ST, by contrast, plateaus at a small but non-zero **error floor** (~CER 0.05, WER ~0.24–0.25) even at 20 dB. This is a known characteristic of neural/CTC-based speech recognition — some residual acoustic ambiguity and decoding error remains regardless of channel quality, since the model is also implicitly performing speech recognition, not just bit transmission.
 
-**The practical implication.** DeepSC-ST is most valuable in **power-constrained, low-SNR, or deep-fading environments** (e.g., edge devices, disaster-recovery networks, deep space, congested spectrum) where classical schemes fail catastrophically. In high-SNR, reliable-link conditions, a classical transceiver (or DeepSC-ST followed by a light error-correction pass) remains preferable if perfect textual fidelity is required.
+**The practical implication.** DeepSC-ST is most valuable in **power-constrained, low-SNR, or deep-fading environments** (e.g., edge devices, disaster-recovery networks, deep space, congested spectrum) where classical schemes fail catastrophically.
 
 ---
 
