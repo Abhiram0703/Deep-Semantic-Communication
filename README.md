@@ -282,11 +282,3 @@ For a fair comparison, a simple classical pipeline was implemented from scratch:
 This baseline has **no error correction, no source compression, and no learned robustness** — it represents a "raw" digital transmission scheme, which is a reasonable lower-bound reference for showing what semantic communication adds on top of a naive digital link.
 
 ---
-
-## References
-
-- H. Xie, Z. Qin, G. Y. Li and B. -H. Juang, *"Deep Learning Enabled Semantic Communication Systems"*, IEEE Transactions on Signal Processing, 2021. (DeepSC)
-- Z. Weng and Z. Qin, *"Semantic Communication Systems for Speech Transmission"*, IEEE JSAC, 2021. (DeepSC-ST — the architecture this implementation is based on)
-- K. Ito, *"The LJ Speech Dataset"*, 2017.
-
----
