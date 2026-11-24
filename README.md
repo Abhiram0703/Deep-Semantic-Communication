@@ -112,7 +112,7 @@ The model is trained and evaluated on the **[LJSpeech-1.1](https://keithito.com/
 
 - ~13,100 short audio clips of a single English speaker reading passages from public-domain books
 - Paired with normalized text transcripts (`metadata.csv`)
-- Split 95% / 5% into train / validation sets
+- Split 80% / 20% into training / test sets, with 5% of the training set reserved for validation
 - Vocabulary: lowercase `a–z`, apostrophe, and space (28 symbols + 1 CTC blank = 29 classes)
 
 ---
